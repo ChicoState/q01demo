@@ -1,14 +1,16 @@
 #include <iostream>
 
+using std::string, std::cout, std::cin, std::endl;
+
 int main(){
-  std::string input;
+  string input;
 
   do{
-    std::cout<<"Hola.\n";
-    std::cin>>input;
+    cout<<"Hola.\n";
+    cin>>input;
   }while( input != "hola" );
 
-  std::cout << "gracias\n";
+  cout << "gracias\n";
 
   return 0;
 }
