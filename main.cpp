@@ -1,9 +1,11 @@
 #include <iostream>
 
+using std::string, std::cout, std::cin, std::endl;
+
 int main(){
-  std::string input;
-  std::cout<<"Hola.\n";
-  std::cin>>input;
-  
+  string input;
+  cout<<"Hola.\n";
+  cin>>input;
+
   return 0;
 }
