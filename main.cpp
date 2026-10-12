@@ -7,8 +7,9 @@ int main(){
 
   do{
     cout<<"Hola.\n";
-    cin>>input;
-  }while( input != "hola" );
+    getline(cin, input);
+
+  }while( input.find("hola") == string::npos );
 
   cout << "gracias\n";
 
